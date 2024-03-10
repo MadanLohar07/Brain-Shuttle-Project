@@ -1,0 +1,204 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #140024;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+
+
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  }
+
+.nav-items-1 {
+  position: absolute;
+  top: -39px;
+  left: -35px;
+  display: flex;
+  justify-content: center;
+}
+
+.iconName{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+.nav-items-2 {
+  position: absolute;
+  top: -11px;
+  left: 467;
+  display: flex;
+  grid-gap: 100px;
+  
+}
+
+.iconImg{
+  height: 35px;
+  width: 41px;
+  position: relative;
+  top: 22px;
+  left: -11px;
+
+}
+
+.nav-items-2-a {
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: inherit;
+}
+
+.nav-items-2-a:hover {
+  color: #535bf2;
+  transition:   0.45s
+}
+
+
+.nav-items-3 {
+  position: absolute;
+  top: -14px;
+  right: -35px;
+}
+
+.signup {
+  border-radius: 30px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.5s;
+  color: black;
+  text-decoration: inherit;
+}
+
+.signup:hover {
+  background-color: #26073f;
+  color: white;
+  transition:   0.35s
+
+}
+
+.main-div{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.main-div-1{
+  width: 50%;
+  height: 100%;
+  position: relative;
+  top: 150px;
+  }
+
+.main-div-1-ele {
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+.main-div-1-ele-1 {
+  text-align: left;
+  font-size: 24px;
+  margin: 0;
+  font-weight: 350;
+  margin-left: 16px;
+}
+
+.main-div-1-ele-3 {
+  text-align: left;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+ #brainShuttle1 {
+  background-color: #b06de7;
+  color: #26073f;
+  border-radius: 30px;
+  width: 168px;
+  height: 43px;
+ } 
+
+#start-training {
+  position: absolute;
+  left: 0%;
+  color: #26073f;
+  background-color: white;
+  border-radius: 30px;
+  height: 46px;
+  margin-top: 55px;
+  width: 222px;
+}
+
+#start-training:hover{
+  transition: 0.35s;
+  color: #ffffff;
+  background-color: #26073f;
+}
+
+.main-div-1-ele-4{
+  position: relative;
+    top: 8px;
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: inherit;
+    color: #26073f;
+}
+
+.main-div-1-ele-4:hover {
+  color: white;
+  background-color: #26073f;
+  transition:   0.35s;
+}
+
+.main-div-2{
+  width: 98%;
+  height: 100%;
+  position: relative;
+  top: 94px;
+  right: -128px;
+  }
+
+.mainDivimg2 {
+  height: 590px;
+  width: 848px;
+}  
+
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
